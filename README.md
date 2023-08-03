@@ -3,7 +3,7 @@
 <!-- ![Github All Releases](https://img.shields.io/github/downloads/timd1/vcfdist/total.svg) -->
 
 ## Overview
-
+NOT MY CODE!!! TIM DUNN'S CODE!!!!!!! <-very important go to their repository not mine
 * [Introduction](#introduction)
 * [Installation](#installation)
 * [Usage](#usage)
