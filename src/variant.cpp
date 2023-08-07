@@ -246,7 +246,7 @@ void ctgVariants::print_var_sample(FILE* out_fp, int idx, std::string gt,
         case ERRTYPE_FP: errtype = "FP"; break; //if FP, leave value
         case ERRTYPE_FN: errtype = "FN"; break; //if FN, leave value
         case ERRTYPE_PP: // for hap.py compatibility
-             errtype = this->credit[idx] >= 0 ? "TP" : 
+             errtype = this->credit[idx] >= 0.5 ? "TP" : 
                  (query ? "FP" : "FN"); break;
     }//min is 0.000000, max is 1.000000, so changed it to >=1.000000 from 0.5.
 
